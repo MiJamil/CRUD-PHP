@@ -1,0 +1,1 @@
+"This is simple CRUD function in php using mySQL. CRUD means Create, Read, Update, Delete."

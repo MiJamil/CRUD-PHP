@@ -1,0 +1,87 @@
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #ffff;
+  color: #5E5E5E;
+}
+.h4{
+  font-style: bold;
+  color: #5E5E5E;
+}
+.form-signin {
+  max-width: 480px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading{
+   margin-bottom: 10px;
+  font-size: 80px;
+  font-style: bold;
+  color: #5E5E5E; 
+}
+.form-signin .checkbox {
+  margin-bottom: 0px;
+  padding-left: 22px;
+}
+.form-signin .link {
+  padding-left: 300px;
+}
+.form-signin .checkbox {
+  font-style: bold;
+  color: #5E5E5E;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+  
+  input[type=text]:focus{
+    border-color:dodgerBlue;
+    box-shadow:0 0 2px 0 dodgerBlue;
+  }
+  
+  .inputWithIcon input[type=text]{
+    padding-left:40px;
+  }
+
+  .inputWithIcon input[type=password]{
+    padding-left:40px;
+  }
+  
+  .inputWithIcon{
+    position:relative;
+  }
+  
+  .inputWithIcon i{
+    position:absolute;
+    left:0;
+    top:1.5px;
+    padding:9px 8px;
+    color:#aaa;
+    transition:.3s;
+  }
+  
+  .inputWithIcon input[type=text]:focus + i{
+    color:dodgerBlue;
+  }
+  
+  .inputWithIcon.inputIconBg i{
+    background-color:#31B0D5;
+    color:#fff;
+    padding:14.5px 12px;
+    border-radius:4px 0 0 4px;
+  }
+  
+  .inputWithIcon.inputIconBg input[type=text]:focus + i{
+    color:#31B0D5;
+    background-color:dodgerBlue;
+  }
